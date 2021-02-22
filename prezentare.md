@@ -12,9 +12,11 @@ Utilizatorii, înregistrați sau nu, sunt definiți după cum urmează:
 
   Nu este nevoie de un cont pentru a avea acces la colecția de eseuri și comentarii sau la [detectorul de plagiat](#plagiat). Utilizatorii ce au un cont beneficiază și de aceste funcționalități, la care se adaugă cele următor precizate.
 
-  Elevii pot încărca propriile lor [lucrări](#continut), acestea fiind trecute prin procesul de [revizuire](#revizuire) al conținutului.
+  Elevii pot încărca propriile lor [lucrări](#continut), acestea fiind trecute prin procesul de [revizuire](#revizuire) al conținutului. De altfel, aceștia pot oferi [feedback](#feedback) pentru experiența lor pe platformă.
 
   Profesorii, în schimb, pot încărca lucrări fără ca acestea să mai fie revizuite. Aceștia au acces la lucrările care sunt în procesul de revizuire, putând verifica eseurile oricărui elev care dorește să-și publice lucrările pe platformă. Dacă au elevi [asociați](#asocieri), pot aproba sau respinge lucrările pe care elevii lor doresc să le încarce.
+  
+  Pentru mai multe informații despre rolul profesorilor pe platformă, vedeți secțiunea [Profesorii](#profesori).
 
 * <a name="asocieri"></a>**Asocieri/relații între utilizatori**
 
@@ -35,6 +37,8 @@ Utilizatorii, înregistrați sau nu, sunt definiți după cum urmează:
 * <a name="autentificare"></a>**Autentificarea**
 
   Utilizatorul se autentifică folosind email-ul si parola. Sesiunea acestuia va putea fi, desigur, reținută (funcția *remember me*).
+  
+  [//]: # (TODO: Oare să scăpăm de autentificarea clasică prin user și parolă? Argumente pro? Argumente contra?) 
 
 ## <a name="continut"></a>Conținutul
 
@@ -69,7 +73,17 @@ Utilizatorii, înregistrați sau nu, sunt definiți după cum urmează:
 
 1. <a name="publicare"></a>**Publicarea conținutului**
 
-    După ce lucrarea trece cu succes prin stagiile de [încărcare](#incarcare) și [revizuire](#revizuire), aceasta este publicată automat. După publicare, lucrarea este vizibilă tuturor utilizatorilor platformei, aceștia putând să o utilizeze spre a-și crea propriile lor lucrări. Aceasta nu mai poate fi reeditată! Schimbări subsecvente rezultă în necesitatea unei noi revizii de către profesor și complică strategiile de optimizare a performanței platformei.
+    După ce lucrarea trece cu succes prin stagiile de [încărcare](#incarcare) și [revizuire](#revizuire), aceasta este publicată automat. După publicare, lucrarea este vizibilă tuturor utilizatorilor platformei, aceștia putând să o utilizeze spre a-și crea propriile lor lucrări. Aceasta nu mai poate fi reeditată! Schimbările subsecvente rezultă în necesitatea unei noi revizii de către profesor și complică strategiile de optimizare a performanței platformei.
+    
+    Conținutul încărcat va putea primi și un feedback anonim, nevizibil publicului, de la elevi: a fost de ajutor eseul pentru scopul tău? Dacă un eseu primește feedback negativ semnificativ, se va considera eliminarea acestuia de pe site. De ce nu este public acest feedback? Încercăm să evităm efectul de turmă. În mod natural, elevul va căuta cel mai bine privit conținut de pe platformă, voturile pozitive pentru acesta crescând exponențial, iar restul eseurilor, deși mai complexe, provocatoare, vor rămâne în umbră, conținutul astfel normalizându-se la un standard mediocru.
+
+## <a name="profesori"></a>Profesorii
+
+Deoarece platforma garantează calitatea conținutului, este nevoie de profesori pentru a se asigura de aceasta: respectă lucrarea cerințele pentru bac? este corect dpdv gramatical, ortografic, al vocabularului? Astfel, profesorii [revizuiesc](#revizuire) lucrările după criteriile necesare și perspectiva lor personală.
+
+## <a name="feedback"></a>Feedback
+
+Vrem să ne asigurăm că experiența elevului pe platformă este una valoroasă, din care a învățat și care l-a ajutat să-și atingă scopul. Singurul mod prin care ne putem asigura că viziunea noastră se înfăptuiește nu poate fi altul decât un mijloc de comunicare cu utilizatorii platformei. Astfel că elevii pot lăsa un mesaj descriind experiența lor, ajutându-ne să o îmbunătățim după cum e cazul. Acest feedback va fi cerut automat, de exemplu după încărcarea primului eseu, sau după mai mult timp de utilizare al platformei.
 
 ## <a name="plagiat"></a>Plagiatura
 
