@@ -10,12 +10,6 @@ Utilizatorii, înregistrați sau nu, sunt definiți după cum urmează:
 
 * <a name="beneficii"></a>**Beneficii/Funcționalități disponibile**
 
-  - Acces la tot conținutul de pe platformă
-
-
-  - Conținutul este needitabil după încărcare
-  -  
-
   Nu este nevoie de un cont pentru a avea acces la colecția de eseuri și comentarii sau la [detectorul de plagiat](#plagiat). Utilizatorii ce au un cont beneficiază și de aceste funcționalități, la care se adaugă cele următor precizate.
 
   Elevii pot încărca propriile lor [lucrări](#continut), acestea fiind trecute prin procesul de [revizuire](#revizuire) al conținutului.
@@ -51,7 +45,7 @@ Utilizatorii, înregistrați sau nu, sunt definiți după cum urmează:
     * Fișiere plain-text (`.txt`)
     * Fișiere Microsoft Office Word (`.doc`/`.docx`) și OpenOffice (`.odt`)
     * Surse publice Google Docs
-    * Imagini ce conțin text atât imprimat, cât și scris de mână.
+    * Imagini (`.jpg/.jpeg`, `.png`, `.pdf`) ce conțin text imprimat sau scris de mână.
 
     După ce fișierul (fișierele) sunt încărcate, serverul extrage textul folosind serviciul corespunzător formatului. Conținutul fiind acum într-un format plain-text, este procesat pentru a asigura spațierea, capitalizarea, indentarea paragrafelor și utilizarea diacriticelor corecte și consistente. Acest pas pregătește lucrarea pentru [revizuire](#revizuire), dacă este necesar, și [publicare](#publicare).
 
@@ -75,7 +69,7 @@ Utilizatorii, înregistrați sau nu, sunt definiți după cum urmează:
 
 1. <a name="publicare"></a>**Publicarea conținutului**
 
-    După ce lucrarea trece cu succes prin stagiile de [încărcare](#incarcare) și [revizuire](#revizuire), aceasta este publicată automat. După publicare, lucrarea este vizibilă tuturor utilizatorilor platformei, aceștia putând să o utilizeze spre a-și crea propriile lor lucrări.
+    După ce lucrarea trece cu succes prin stagiile de [încărcare](#incarcare) și [revizuire](#revizuire), aceasta este publicată automat. După publicare, lucrarea este vizibilă tuturor utilizatorilor platformei, aceștia putând să o utilizeze spre a-și crea propriile lor lucrări. Aceasta nu mai poate fi reeditată! Schimbări subsecvente rezultă în necesitatea unei noi revizii de către profesor și complică strategiile de optimizare a performanței platformei.
 
 ## <a name="plagiat"></a>Plagiatura
 
