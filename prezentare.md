@@ -10,7 +10,7 @@ Utilizatorii, înregistrați sau nu, sunt definiți după cum urmează:
 
 * <a name="beneficii"></a>**Beneficii/Funcționalități disponibile**
 
-  Nu este nevoie de un cont pentru a avea acces la colecția de eseuri și comentarii sau la [detectorul de plagiat](#plagiat). Utilizatorii ce au un cont beneficiază și de aceste funcționalități, la care se adaugă cele următor precizate.
+  Nu este nevoie de un cont pentru a avea acces la colecția de eseuri și comentarii, [editorul de eseuri](#editor) și la [detectorul de plagiat](#plagiat). Utilizatorii ce au un cont beneficiază și de aceste funcționalități, la care se adaugă cele următor precizate.
 
   Elevii pot încărca propriile lor [lucrări](#continut), acestea fiind trecute prin procesul de [revizuire](#revizuire) al conținutului. De altfel, aceștia pot oferi [feedback](#feedback) pentru experiența lor pe platformă.
 
@@ -76,6 +76,16 @@ Utilizatorii, înregistrați sau nu, sunt definiți după cum urmează:
     După ce lucrarea trece cu succes prin stagiile de [încărcare](#incarcare) și [revizuire](#revizuire), aceasta este publicată automat. După publicare, lucrarea este vizibilă tuturor utilizatorilor platformei, aceștia putând să o utilizeze spre a-și crea propriile lor lucrări. Aceasta nu mai poate fi reeditată! Schimbările subsecvente rezultă în necesitatea unei noi revizii de către profesor și complică strategiile de optimizare a performanței platformei.
     
     Conținutul încărcat va putea primi și un feedback anonim, nevizibil publicului, de la elevi: a fost de ajutor eseul pentru scopul tău? Dacă un eseu primește feedback negativ semnificativ, se va considera eliminarea acestuia de pe site. De ce nu este public acest feedback? Încercăm să evităm efectul de turmă. În mod natural, elevul va căuta cel mai bine privit conținut de pe platformă, voturile pozitive pentru acesta crescând exponențial, iar restul eseurilor, deși mai complexe, provocatoare, vor rămâne în umbră, conținutul astfel normalizându-se la un standard mediocru.
+
+1. <a name="explorare"></a>**Explorarea conținutului**
+
+    Elevul poate vedea toate lucrările de pe platformă, fie că este logat, fie că nu. Pe prima pagină este întâmpinat de o listă cu operele și personajele pentru care sunt publicate lucrările și de asemenea poate căuta opera sau personajul care îl interesează. Când găsește ceea ce caută, elevului îi va fi afișată o lucrare aleatorie și cu ajutorul unui buton poate să continue să răsfoiască printre eseuri, în ordine aleatorie. Desgiur, se poate întoarce înapoi, poate salva eseuri (ca și un bookmark), dar mai mult de atât: când găsește un paragraf, o idee care i se pare interesantă, acesta o poate salva la [idei](#idei).
+
+    <a name="idei"></a>Ideile sunt grupate după opera sau personajul abordat în opera din care sunt luate. Elevul le poate vedea atunci când scrie un eseu în [editor](#editor). Acest sistem permite elevului să găsească ceea ce i-a atras atenția rapid, fără să mai caute printre eseurile salvate sau prin colecția întreagă.
+
+## <a name="editor"></a>Editorul de eseuri
+
+Punem la dispoziție elevilor atât posibilitatea de a încărca lucrări deja făcute, cât și de a le compune la noi pe platformă. Editorul de eseuri este un mediu simplu de editare text, care îți permite să răsfoiești prin eseuri (cele salvate sau chiar aleatoriu) și prin [ideile](#idei) tale salvate în timp ce scrii textul. Când ai terminat, îl publici, iar apoi îl poți exporta în formate cum ar fi Word.
 
 ## <a name="profesori"></a>Profesorii
 
