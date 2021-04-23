@@ -1,6 +1,10 @@
 # Plan \<NUME\>
 
-[Prezentare](prezentare.md) &bull; [Business plan][1] &bull; [Prototip][2] &bull; [Schematică bază de date][3]
+## IMPORTANT
+
+**Planificarea se desfășoară în [secțiunea "Issues" din repository-ul principal](https://github.com/FiveIT/eseuri/issues)**
+
+[Prezentare](prezentare.md) &bull; [Business plan][1] &bull; [Schematică bază de date][2]
 
 **NOTĂ:** Pentru neclarități în legătură cu acest document, deschideți un issue.
 
