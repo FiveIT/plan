@@ -11,6 +11,7 @@
 
 - [Ghid dezvoltare](./dezvoltare/ghid.md)
 - [Schematică](./dezvoltare/schematică.md)
+- [Autorizare](./dezvoltare/autorizare.md)
 - [Pagini](./dezvoltare/pagini.md)
   - [Acasă](./dezvoltare/pagini/acasă.md)
     - [Meniu utilizatori](./dezvoltare/pagini/acasă/utilizatori.md)
