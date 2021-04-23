@@ -1,4 +1,4 @@
-# Summary
+# Cuprins
 
 - [Introducere](./index.md)
 - [Conceptele platformei](./concepte.md)
@@ -25,7 +25,3 @@
 - [Încărcare lucrare](./dezvoltare/încărcare.md)
   - [Meniu selectare fișier](./dezvoltare/încărcare/selectare.md)
   - [Meniu configurare lucrare](./dezvoltare/încărcare/configurare.md)
-
-# Documentație
-
-- [Documentație](./documentație.md)
