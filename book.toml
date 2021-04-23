@@ -1,0 +1,11 @@
+[book]
+authors = ["Teodor Maxim"]
+language = "ro"
+multilingual = false
+src = "src"
+title = "Eseuri"
+
+[output.html]
+default-theme = "navy"
+preffered-dark-theme = "navy"
+git-repository-url = "https://github.com/FiveIT/plan"
