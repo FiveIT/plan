@@ -16,19 +16,23 @@
 |-<a href=register>register</a>
 |-<a href=search>search</a>
 |-<a href=upload>upload</a>
+|-<a href=write-menu>write</a>
+| |-<a href=write>[essay]</a>
 |-evaluate
-| |-<a href=evaluate>[id]</a>
+| |-<a href=evaluate>[essay]</a>
 |-<a href=book>[book]</a>
-  |-<a href=essay>[essay]</a>
+| |-<a href=essay>[essay]</a>
+|-<a href=character-redirect>[character]</a>
+  |-<a href=character>[essay]</a>
 </pre>
 
 ### Home
 
 * pagina de întâmpinare
 * **elevul** vede:
-  * titlurile de cărți ([component](), [entitate](), [endpoint]()) 
+  * titlurile de cărți sau personaje ([component](#titlu-de-carte-sau-personaj), [entitate](), [endpoint]()) 
 * **profesorul** vede:
-  * eseurile nerevizuite ([component](), [entitate](), [endpoint]())
+  * eseurile nerevizuite ([component](#eseu-nerevizuit), [entitate](), [endpoint]())
 
 #### Frontend
 
@@ -36,24 +40,6 @@
   * **titlu:** `Bun venit!/Acasă/etc.`
   * **slot:**
     * grid din titluri sau eseuri nerevizuite
-
-##### Componente
-
-###### Titlu de carte
-
-* reprezintă un link către ruta [book](#book)
-* afișează:
-  * titlul
-  * autorul
-  * numărul de eseuri
-
-###### Eseu nerevizuit
-
-* reprezintă un link către ruta [evaluate](#evaluate)
-* afișează
-  * titlul cărții pentru care e făcut eseul
-  * autorul cărții
-  * autorul eseului (numele contului de elev)
 
 #### Backend
 
@@ -92,7 +78,53 @@
 
 [//]: # (TODO)
 
-[//]: # (TODO: Alte rute necesare/utile)
+[//]: # (TODO: Rutele nou-adaugate + alte rute necesare/utile)
+
+### Write menu
+
+    /
+    |-[essay]
+
+* afișează eseurile începute anterior (draft-urile) ([component](#draft))
+* permite elevului să înceapă un eseu nou
+
+### Write
+
+* subrută a [write-menu](#write-menu)
+* afișează [editorul de text](#editor-text), unde se editează lucrarea identificată de ID-ul [essay]
+
+## Componente
+
+### Titlu de carte sau personaj
+
+* reprezintă un link către ruta [book](#book) sau [character](#character-redirect)
+* afișează:
+  * titlul/numele personajului
+  * autorul/opera din care face parte
+  * numărul de eseuri
+
+### Eseu nerevizuit
+
+* reprezintă un link către ruta [evaluate](#evaluate)
+* afișează
+  * titlul cărții/numele personajului pentru care e făcut eseul
+  * autorul cărții/titlul cărții din care face parte
+  * tipul lucrării (eseu/caracterizare)
+
+### Vizualizator text
+
+* afișează textul pentru citit
+
+[//]: # (TODO: descriere completă)
+
+### Draft
+
+* este un link către a edita un eseu deja început ([rută](#write))
+[//]: # (TODO: Rolul informațiilor afișate este de a ajuta elevul în a recunoaște cu ușurință draft-ul pe care îl caută. Există informații mai utile pentru aceasta?)
+* afișează
+  * opera/personajul pentru care este scris eseul
+  * ultima dată și oră la care a fost editat
+  * numărul de cuvinte
 
 ## Layout-uri
 
@@ -108,7 +140,8 @@
 
 ## Endpoint-uri API
 
-[//]: # (TODO)
+[//]: # (TODO: GraphQL? Având în vedere că permite alegerea payload-ului necesar pe frontend oferă o flexibilitate mai mare și lipsa necesității de a crea endpoint-uri ca într-un REST API. Totuși, este o tehnologie nefamiliară tuturor.)
 
 [1]: https://docs.google.com/presentation/d/1bKMsCSciHUsiMy7Lg7-0SCBnQGAnBxZ8NDw0_tS32g0/
-[2]: https://dbdiagram.io/d/602fa29efcdcb6230b20958d
+[2]: https://www.figma.com/file/eNTTW9Hj7KzglbLifcj8Zt/Prototip
+[3]: https://dbdiagram.io/d/602fa29efcdcb6230b20958d
