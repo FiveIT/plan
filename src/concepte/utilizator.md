@@ -39,3 +39,11 @@ O asociere este compusă din:
 - profesor
 
 Este necesar ca inițiatorul să fie una dintre părți (elevul sau profesorul). După inițierea asocierii, aceasta se află în stadiul de _așteptare_, deoarece inițiatorul așteaptă aprobarea sau respingerea celeilalte părți. Când cealaltă parte răspunde asocierii, stadiul acesteia se schimbă din _așteptare_ în _aprobată_ sau _respinsă_. În primul caz, utilizatorii sunt asociați, iar în al doilea inițiatorul primește o înștiințare în legătură cu asocierea refuzată.
+
+## Confidențialitatea datelor utilizatorului
+
+"Date" se referă la: nume, școală și email.
+
+- utilizatorii anonimi nu obține nicio informație despre elevi.
+- datele profesorilor sunt accesibile de către orice persoană.
+- profesorii pot accesa datele elevilor, pentru a putea permite inițierea asocierilor de către profesori.
