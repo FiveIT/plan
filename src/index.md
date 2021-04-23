@@ -6,7 +6,7 @@ Astfel, Eseuri poate asigura succesul tuturor elevilor la examenul de bacalaurea
 
 Poți naviga această documentație folosind săgețile de pe tastatură sau de pe ecran, ori poți folosi cuprinsul din stânga. În colțul dreapta-sus se află atât repository-ul Github al acestei documentații, cât și posibilitatea de a imprima documentația.
 
-Continuă mai departe în secțiunea [Concepte](/concepte.md), iar apoi în secțiunea [Dezvoltare](/dezvoltare/ghid.md), dacă ești dezvoltator al aplicației și ai nevoie de detalii exacte pentru implementare, sau în [Documentație](/documentație.md), dacă ești interesat de descrierea procesului de dezvoltare.
+Continuă mai departe în secțiunea [Concepte](/concepte.md), iar apoi în secțiunea [Dezvoltare](/dezvoltare/ghid.md), dacă ești dezvoltator al aplicației și ai nevoie de detalii exacte pentru implementare.
 
 ## Link-uri utile
 
